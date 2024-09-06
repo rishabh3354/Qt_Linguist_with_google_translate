@@ -1,0 +1,9 @@
+*.pyo
+*.pyc
+migrations/
+*.xml
+*.iml
+.idea/
+build
+dist
+*.spec
