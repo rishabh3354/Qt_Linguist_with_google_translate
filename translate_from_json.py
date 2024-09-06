@@ -7,7 +7,6 @@ languages = {
     "de": "German",
     "fr": "French",
     "nl": "Dutch",
-    "it": "Italian",
 }
 
 text_to_translate = {
@@ -17,6 +16,9 @@ text_to_translate = {
     },
     "Settings": {
         "en": "Settings",
+    },
+    "Home": {
+        "en": "Home",
     },
 }
 

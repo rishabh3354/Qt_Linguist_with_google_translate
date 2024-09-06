@@ -5,10 +5,9 @@ import xml.dom.minidom as minidom
 
 ts_file_path = {
     # locate your ts file and add path here!
-    "de": "translation/de/main_de.ts",
-    "fr": "translation/fr/main_fr.ts",
-    "nl": "translation/nl/main_nl.ts",
-    "it": "translation/it/main_it.ts",
+    "de": "Examples/de/main_de.ts",
+    "fr": "Examples/fr/main_fr.ts",
+    "nl": "Examples/nl/main_nl.ts",
 }
 
 bad_strings_for_translation = {
@@ -34,15 +33,15 @@ ignore_translation = [
 tags_to_add = [
     # To add new <source> tag in .ts file
     {
-        "filename": "../main_ui.py",  # main ui file path (you can check in .ts file and paste it here)
+        "filename": "Examples/main_ui.py",  # main ui file path (you can check in .ts file and paste it here)
         "line": "1",  # you can give any
-        "source": "About App",  # input text for translation
+        "source": "This is a test",  # input text for translation
         "translation": "",  # will be autofill
     },
     {
-        "filename": "../main_ui.py",
+        "filename": "Examples/main_ui.py",
         "line": "2",
-        "source": "Play Video",
+        "source": "This is also a test",
         "translation": "",
     },
 ]

@@ -7,15 +7,13 @@ languages = {
     "de": "German",
     "fr": "French",
     "nl": "Dutch",
-    "it": "Italian",
 }
 
 ts_file_path = {
     # Replace your .ts path accordingly
-    "de": "translation/de/main_de.ts",
-    "fr": "translation/fr/main_fr.ts",
-    "nl": "translation/nl/main_nl.ts",
-    "it": "translation/it/main_it.ts",
+    "de": "Examples/de/main_de.ts",
+    "fr": "Examples/fr/main_fr.ts",
+    "nl": "Examples/nl/main_nl.ts",
 }
 
 bad_strings_for_translation = {
